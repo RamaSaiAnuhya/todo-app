@@ -44,21 +44,21 @@ function App() {
     setTodos(newTodos);
   };
 
-  const togglePin = (id) => {
+  const switchPinStatus = (id) => {
     const newTodos = todos.map((todo) =>
       todo.id === id ? { ...todo, pinned: !todo.pinned } : todo
     );
     setTodos(newTodos);
   };
 
-  const toggleComplete = (id) => {
+  const markAsDone = (id) => {
     const newTodos = todos.map((todo) =>
       todo.id === id ? { ...todo, completed: !todo.completed } : todo
     );
     setTodos(newTodos);
   };
 
-  const toggleEdit = (id) => {
+  const enableEditing = (id) => {
     const updated = todos.map(todo =>
       todo.id === id ? { ...todo, isEditing: !todo.isEditing } : todo
     );
@@ -123,7 +123,7 @@ function App() {
                 <input
                   type="checkbox"
                   checked={item.completed}
-                  onChange={() => toggleComplete(item.id)}
+                  onChange={() => markAsDone(item.id)}
                 />
                 {item.isEditing ? (
                   <input
@@ -131,7 +131,7 @@ function App() {
                     onChange={(e) => handleEditChange(item.id, e.target.value)}
                     onKeyDown={(e) => {
                       if (e.key === 'Enter' && !e.shiftKey) {
-                        toggleEdit(item.id);
+                        enableEditing(item.id);
                       }
                     }}
                     autoFocus
@@ -146,10 +146,10 @@ function App() {
                 </div>
               </div>
               <div className="buttons">
-                <button onClick={() => toggleEdit(item.id)} className="edit-button">
+                <button onClick={() => enableEditing(item.id)} className="edit-button">
                   ✏️ {item.isEditing ? 'Save' : 'Edit'}
                 </button>
-                <button onClick={() => togglePin(item.id)} className="pin-button">
+                <button onClick={() => switchPinStatus(item.id)} className="pin-button">
                   {item.pinned ? '📌 Unpin' : '📍 Pin'}
                 </button>
                 <button onClick={() => handleDelete(item.id)} className="delete-button">
