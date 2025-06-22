@@ -100,7 +100,7 @@ Check the demo hosted on vercel https://todo-app-eta-ochre.vercel.app/
    Open your terminal and run:
 
    ```bash
-   git clone https://github.com/RamaSaiAnuhya/react-todo-app.git
+   git clone https://github.com/RamaSaiAnuhya/todo-app.git
    ```
    
 2. Navigate to the project directory
