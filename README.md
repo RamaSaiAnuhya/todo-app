@@ -76,14 +76,15 @@ Check the demo hosted on vercel https://todo-app-eta-ochre.vercel.app/
 ### Desktop View
 ![Desktop View](./screenshots/desktop-view.png)
 
-### Mobile View
-![Mobile View](./screenshots/mobile-view.png)
-
 ### Completed Tasks
 ![Completed Tasks](./screenshots/completed-tasks.png)
 
 ### Pinned Tasks
 ![Pinned Tasks](./screenshots/pinned-tasks.png)
+
+### Mobile View
+<img src="./screenshots/mobile-view.png" height="400" alt="Mobile View" />
+
 
 ---
 
