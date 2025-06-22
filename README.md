@@ -1,19 +1,33 @@
 # React ToDo List Web App
 
-A clean and user-friendly to-do list application built using React. It supports CRUD operations(Create, Read, Update and Delete) with a decent UI.
+A clean and user-friendly to-do list application built using React. It supports CRUD operations(Create, Read, Update and Delete) with a decent user interface.
+
+---
+
+
+Check the demo hosted on vercel https://todo-app-eta-ochre.vercel.app/
 
 ---
 
 ## 📌 Table of Contents
 
+- [Tech Stacks](#tech-stacks)
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Tech Stacks](#tech-stacks)
+
 
 ---
+
+## 🛠 Tech Stacks
+- Frontend : React
+- Styling : CSS
+- Persistence : Browser Local Storage
+
+---
+
 
 ## ✅ Features
 - Add New Tasks
@@ -25,10 +39,6 @@ A clean and user-friendly to-do list application built using React. It supports 
 - Data saved in browser(localStorage)
 - Fully mobile responsive UI with clean layout
 
-## 🛠 Tech Stacks
-- Frontend : React
-- Styling : CSS
-- Persistence : Browser Local Storage
 
 ---
 
@@ -53,3 +63,44 @@ A clean and user-friendly to-do list application built using React. It supports 
 ├── package-lock.json
 ├── package.json
 └── README.md
+
+---
+
+## Installation
+
+### Pre-requisites
+- Node.js 
+- npm (comes with Node.js)
+
+### Steps
+
+1. Clone this repository:
+   Open your terminal and run:
+
+   ```bash
+   git clone https://github.com/RamaSaiAnuhya/react-todo-app.git
+   ```
+   
+2. Navigate to the project directory
+
+   ```bash
+   cd react-todo-app
+   ```
+   
+3. Install dependencies
+   Make sure you have Node.js installed, then run:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server
+
+   ```bash
+   npm start
+   ```
+
+The app should now  be running at http://localhost:3000
+   
+
+
