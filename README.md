@@ -49,7 +49,12 @@ Check the demo hosted on vercel https://todo-app-eta-ochre.vercel.app/
 │   ├── logo512.png
 │   ├── manifest.json
 │   └── robots.txt
-├── screenshots
+├── screenshots/
+│   ├── .gitkeep
+│   ├── completed-tasks.png
+│   ├── desktop-view.png
+│   ├── mobile-view.png
+│   ├── pinned-tasks.png
 ├── src/
 │   ├── App.css
 │   ├── App.js
