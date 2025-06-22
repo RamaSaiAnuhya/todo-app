@@ -16,8 +16,6 @@ Check the demo hosted on vercel https://todo-app-eta-ochre.vercel.app/
 - [Project Structure](#project-structure)
 - [Screenshots](#screenshots)
 - [Installation](#installation)
-- [Usage](#usage)
-
 
 ---
 
@@ -67,7 +65,7 @@ Check the demo hosted on vercel https://todo-app-eta-ochre.vercel.app/
 ```
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Desktop View
 ![Desktop View](./screenshots/desktop-view.png)
@@ -119,5 +117,5 @@ Check the demo hosted on vercel https://todo-app-eta-ochre.vercel.app/
 
 The app should now  be running at http://localhost:3000
 
-
+Happy CODING!
 
