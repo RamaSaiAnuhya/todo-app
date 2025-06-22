@@ -9,19 +9,19 @@ Check the demo hosted on vercel https://todo-app-eta-ochre.vercel.app/
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 
 - [Tech Stacks](#tech-stacks)
 - [Features](#features)
-- [Screenshots](#screenshots)
 - [Project Structure](#project-structure)
+- [Screenshots](#screenshots)
 - [Installation](#installation)
 - [Usage](#usage)
 
 
 ---
 
-## 🛠 Tech Stacks
+## Tech Stacks
 - Frontend : React
 - Styling : CSS
 - Persistence : Browser Local Storage
@@ -29,7 +29,7 @@ Check the demo hosted on vercel https://todo-app-eta-ochre.vercel.app/
 ---
 
 
-## ✅ Features
+## Features
 - Add New Tasks
 - Delete existing tasks
 - Pin/Unpin tasks to sort by importance
@@ -42,7 +42,8 @@ Check the demo hosted on vercel https://todo-app-eta-ochre.vercel.app/
 
 ---
 
-## 📁 Project Structure
+## Project Structure
+```bash
 ├── public/
 │   ├── favicon.ico
 │   ├── index.html
@@ -63,6 +64,22 @@ Check the demo hosted on vercel https://todo-app-eta-ochre.vercel.app/
 ├── package-lock.json
 ├── package.json
 └── README.md
+```
+---
+
+## 📸 Screenshots
+
+### Desktop View
+![Desktop View](./screenshots/desktop-view.png)
+
+### Mobile View
+![Mobile View](./screenshots/mobile-view.png)
+
+### Completed Tasks
+![Completed Tasks](./screenshots/completed-tasks.png)
+
+### Pinned Tasks
+![Pinned Tasks](./screenshots/pinned-tasks.png)
 
 ---
 
@@ -101,20 +118,6 @@ Check the demo hosted on vercel https://todo-app-eta-ochre.vercel.app/
    ```
 
 The app should now  be running at http://localhost:3000
-
-## 📸 Screenshots
-
-### Desktop View
-![Desktop View](./screenshots/desktop-view.png)
-
-### Mobile View
-![Mobile View](./screenshots/mobile-view.png)
-
-### Completed Tasks
-![Completed Tasks](./screenshots/completed-tasks.png)
-
-### Pinned Tasks
-![Pinned Tasks](./screenshots/pinned-tasks.png)
 
 
 
